@@ -1,0 +1,314 @@
+/*
+#51CCA8  zelena
+#51B9CC  zeleno plava
+#5E92CC  plava
+#6E81D0  ljubicasta
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700,900');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-image:linear-gradient(rgba(31,31,46,0.7), rgba(31,31,46,0.7)), url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+.hgroup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+    justify-content: center;
+    color: white;
+}
+.hgroup h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    position: relative;
+}
+.hgroup h1::after {
+    content: "";
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    top: 240px;
+    left: 570px;
+    text-align: center;
+}
+.hgroup h5 {
+    font-size: 1.3rem;
+    padding: 0 260px;
+}
+.one {
+    display: flex;
+}
+.one .left {
+    display: flex;
+    flex: 7;
+    background: #51CCA8;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+}
+.one .right {
+    flex: 5;
+    background-image: url(img/section-one.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one .content {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    margin-left: -550px;
+}
+.one button {
+    background: #51CCA8;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.two    {
+    display: flex;
+}
+.two .left {
+    display: flex;
+    flex: 5;
+    background-image: url(img/section-two.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.two .right {
+    flex: 7;
+    background: #5E92CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: white;
+}
+.two .content {
+    background: white;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
+    border-radius: 20px;
+    position: absolute;
+    right: -250px;
+}
+.two button {
+    background: #5E92CC;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.two p {
+    padding: 20px 0;
+}
+.three .left {
+    display: flex;
+    flex: 7;
+    background: #51B9CC;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+}
+.three .right {
+    flex: 5;
+    background-image: url(img/section-three.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three .content {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px;
+    margin-left: -550px;
+}
+.three button {
+    background: #51B9CC;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.three {
+    display: flex;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.four {
+    padding: 40px 0;
+    background: #6E81D0;
+}
+.row1 {
+    background-image: url(img/section-four.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.row2 {
+/*
+    display: flex;
+    flex-direction: column;
+*/
+    background: white;
+    text-align: center;
+    padding: 40px 100px;
+}
+.row2 p {
+    padding: 20px 0;
+    font-size: 1.3rem;
+}
+.row2 h2 {
+    font-size: 3rem;
+}
+.four button {
+    background: #6E81D0;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.five {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+}
+.five img {
+    width: 100%;
+}
+.five .row {
+    flex: 1;
+    margin: 20px;
+    border: 1px solid gray;
+}
+.five h3 {
+    font-size: 2rem;
+    padding: 10px 0 0 0;
+}
+.five p {
+    font-size: 1.2rem;
+    padding: 20px 0;
+    line-height: 1.6;
+}
+.five button {
+    background: #6E81D0;
+    width: 200px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.six {
+    background: #51CCA8;
+    padding: 60px 100px;
+    text-align: center;
+    color: white;
+}
+.six h2 {
+    font-size: 3rem;
+}
+.six p {
+    font-size: 1.3rem;
+    padding: 20px 0;
+}
+.six input {
+    padding: 10px;
+    width: 300px;
+}
+.six button {
+    padding: 7px;
+    width: 160px;
+    font-size: 1.2rem;
+    position: relative;
+    top: 1px;
+}
+footer {
+    display: flex;
+    padding: 50px;
+}
+.row {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+
+
+
